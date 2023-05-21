@@ -35,7 +35,7 @@ class AudioInput {
 
 class FlutterAudioManager {
   static const MethodChannel _channel =
-      const MethodChannel('flutter_audio_manager');
+      const MethodChannel('nullcheck_audio_manager');
   static late void Function() _onInputChanged;
 
   static Future<String> get platformVersion async {

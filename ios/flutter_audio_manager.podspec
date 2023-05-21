@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint flutter_audio_manager.podspec' to validate before publishing.
+# Run `pod lib lint nullcheck_audio_manager.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_audio_manager'
+  s.name             = 'nullcheck_audio_manager'
   s.version          = '0.0.1'
   s.summary          = 'flutter audio manager'
   s.description      = <<-DESC

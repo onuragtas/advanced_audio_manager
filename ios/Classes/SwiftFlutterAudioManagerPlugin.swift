@@ -6,7 +6,7 @@ public class SwiftFlutterAudioManagerPlugin: NSObject, FlutterPlugin {
   var channel : FlutterMethodChannel?
 
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_audio_manager", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "nullcheck_audio_manager", binaryMessenger: registrar.messenger())
     let instance = SwiftFlutterAudioManagerPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
     instance.channel = channel;

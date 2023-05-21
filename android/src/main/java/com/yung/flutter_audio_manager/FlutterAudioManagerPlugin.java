@@ -1,4 +1,4 @@
-package com.yung.flutter_audio_manager;
+package com.yung.nullcheck_audio_manager;
 
 import androidx.annotation.NonNull;
 import android.content.Intent;
@@ -28,7 +28,7 @@ public class FlutterAudioManagerPlugin implements FlutterPlugin, MethodCallHandl
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "flutter_audio_manager");
+    channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "nullcheck_audio_manager");
     channel.setMethodCallHandler(new FlutterAudioManagerPlugin());
     AudioChangeReceiver receiver = new AudioChangeReceiver(listener);
     IntentFilter filter = new IntentFilter(Intent.ACTION_HEADSET_PLUG);
@@ -38,7 +38,7 @@ public class FlutterAudioManagerPlugin implements FlutterPlugin, MethodCallHandl
   }
 
   public static void registerWith(Registrar registrar) {
-    channel = new MethodChannel(registrar.messenger(), "flutter_audio_manager");
+    channel = new MethodChannel(registrar.messenger(), "nullcheck_audio_manager");
     channel.setMethodCallHandler(new FlutterAudioManagerPlugin());
     AudioChangeReceiver receiver = new AudioChangeReceiver(listener);
     IntentFilter filter = new IntentFilter(Intent.ACTION_HEADSET_PLUG);

@@ -1,4 +1,4 @@
-package com.yung.flutter_audio_manager;
+package com.yung.nullcheck_audio_manager;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

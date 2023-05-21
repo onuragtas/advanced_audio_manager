@@ -1,4 +1,4 @@
-group 'com.yung.flutter_audio_manager'
+group 'com.yung.nullcheck_audio_manager'
 version '1.0'
 
 buildscript {

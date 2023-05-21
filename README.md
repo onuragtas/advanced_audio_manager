@@ -1,4 +1,4 @@
-# flutter_audio_manager
+# nullcheck_audio_manager
 
 -   Support to get the current output audio device
 -   Support listening to input device changes
@@ -9,7 +9,7 @@
 ```
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:flutter_audio_manager/flutter_audio_manager.dart';
+import 'package:nullcheck_audio_manager/nullcheck_audio_manager.dart';
 
 void main() => runApp(MyApp());
 
@@ -97,6 +97,6 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 ## Credit
-this plugin is a continuation and improvement of flutter_audio_manager plugin.
+this plugin is a continuation and improvement of nullcheck_audio_manager plugin.
 
 thanks to: letmaker.com

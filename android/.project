@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>flutter_audio_manager</name>
-	<comment>Project flutter_audio_manager created by Buildship.</comment>
+	<name>nullcheck_audio_manager</name>
+	<comment>Project nullcheck_audio_manager created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>

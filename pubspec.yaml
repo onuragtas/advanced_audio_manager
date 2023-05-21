@@ -1,10 +1,10 @@
-name: advanced_audio_manager
+name: nullcheck_audio_manager
 description: The advanced_audio_manager listens to, gets and modifies audio input/output devices.
 version: 0.0.1
 homepage: https://github.com/IhabZaidi/advanced_audio_manager
 
 environment:
-    sdk: ">=2.12.0 <3.0.0"
+    sdk: '>=3.0.1 <4.0.0'
     flutter: ">=2.5.0"
 
 dependencies:
@@ -18,7 +18,7 @@ flutter:
     plugin:
         platforms:
             android:
-                package: com.yung.flutter_audio_manager
+                package: com.yung.nullcheck_audio_manager
                 pluginClass: FlutterAudioManagerPlugin
             ios:
                 pluginClass: FlutterAudioManagerPlugin
