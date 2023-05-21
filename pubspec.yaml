@@ -1,6 +1,6 @@
 name: nullcheck_audio_manager
 description: The advanced_audio_manager listens to, gets and modifies audio input/output devices.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/onuragtas/advanced_audio_manager
 
 environment:
